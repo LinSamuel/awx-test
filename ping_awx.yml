@@ -1,5 +1,5 @@
 ---
-- hosts: awx
+- hosts: tag_awx_awx
   gather_facts: no
   tasks:
   - ping:

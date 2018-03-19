@@ -1,0 +1,9 @@
+---
+- hosts: tag_awx_awx
+  tasks:
+  - name: Creating /usr/bin/bastion directory.
+      file:
+        path: /usr/bin/bastion
+        state: directory
+      become: yes
+      
