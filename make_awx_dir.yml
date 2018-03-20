@@ -1,9 +1,8 @@
 ---
 - hosts: tag_awx_awx
   tasks:
-  - name: Creating /usr/bin/bastion directory.
+  - name: Creating /usr/bin/awxtest directory.
     file:
-      path: /usr/bin/bastion
+      path: /usr/bin/awxtest
       state: directory
     become: yes
-      
