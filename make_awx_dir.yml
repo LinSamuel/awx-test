@@ -1,8 +1,8 @@
 ---
 - hosts: tag_awx_awx
   tasks:
-  - name: Creating /usr/bin/awxtest directory.
+  - name: Creating /usr/bin/awxtestdemo directory.
     file:
-      path: /usr/bin/awxtest
+      path: /usr/bin/awxtestdemo
       state: directory
     become: yes
